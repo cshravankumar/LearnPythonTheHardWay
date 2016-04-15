@@ -1,6 +1,6 @@
 #Shravan Kumar Chandrasekaran
 #sc3940@columbia.edu
-#Exercise 3
+#Exercise 4
 
 ######################################
 #Importing Libraries
@@ -40,7 +40,7 @@ if(exists(from_file)):
 
 	else:
 		print "%s file doesn't exist" %to_file
-		form_file_instance.close()
+		from_file_instance.close()
 else:
 	print "%s does not exist" %from_file
 
